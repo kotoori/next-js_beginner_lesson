@@ -5,7 +5,8 @@ export default function first() {
       <div>
         <h1 className="text-7xl font-bold text-blue-500">First Page</h1>
         <p className="text-center text-3xl">
-          <Link href="/">Topへ</Link>
+          <Link className="block" href="/">Topへ</Link>
+          <Link href="/first/under">Underへ</Link>
         </p>
       </div>
     </div>
